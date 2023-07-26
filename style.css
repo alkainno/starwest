@@ -1,0 +1,1518 @@
+body {
+    background: url(img/Wood\ BG.png);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    margin: 0 auto;
+    width: 80%;
+}
+
+.header {
+
+    background: #ffffff;
+    margin-top: 1px;
+    height: 81px;
+    margin-left: 1px;
+    background-image: url('img/Leaf.png'), url('img/Leaf 2.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 67%, 74%;
+}
+
+.logo {
+    float: left;
+    width: 575px;
+}
+
+.logo-img {
+    padding: 10px 15px 0 10px;
+}
+
+.center-logo {
+    padding: 0px 15px 22px 50px;
+}
+
+.search-box {
+    float: right;
+    width: 20%;
+    text-align: center;
+}
+
+.search-header h5 {
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    color: #616c67;
+}
+
+.search-box-navbar nav a {
+    padding: 0 5px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #a87c7b;
+}
+
+.search-bar {
+    margin-top: 6px;
+}
+
+.search-bar button {
+    margin: -5px;
+    background: #774240;
+    color: white;
+    border: none;
+    /* border-color: #774240; */
+    border: none;
+    padding: 3px;
+}
+
+::placeholder {
+    color: black;
+}
+
+.search-box-navbar nav a {
+    text-decoration: underline;
+}
+
+nav.navbar-menu {
+    padding-top: 10px;
+    background: #774240;
+    color: white;
+    height: 29px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border: 1px solid;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    border-bottom: 1px solid white;
+    overflow: hidden;
+    background-color: #774240;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.topnav a {
+    float: left;
+    font-weight: 600;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #764040;
+    color: white;
+}
+
+
+
+.topnav .icon {
+    display: none;
+}
+
+a {
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-right: 1px solid;
+}
+
+#phone-no {
+    float: right;
+    border-right: none;
+}
+
+.last_item {
+    border-right: none;
+}
+
+nav.navbar-menu span {
+    float: right;
+    margin-right: 23px;
+    font-size: 1.313rem;
+    margin-top: -3px;
+}
+
+.main-landing-page {
+    background: white;
+    width: 99.6%;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    height: auto;
+    margin-top: 20px;
+    padding: 15px 1px 15px 8px;
+    display: flex;
+}
+
+.download-button {
+    display: inline-block;
+    border-radius: 7px;
+    border: 1px solid #c35057;
+    background: #c35057;
+    margin-top: 7px;
+    left: 14px;
+    width: 87%;
+    position: relative;
+}
+
+.download-para1 {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-left: 28px;
+}
+
+.download-para2 {
+    display: inline-block;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 0.563rem;
+    padding-left: 31px;
+}
+
+.pdf-img {
+    position: absolute;
+    top: -9%;
+    left: -8%;
+}
+
+ul li {
+    position: relative;
+}
+
+.one,
+.three {
+    opacity: .5;
+    font-weight: bold;
+}
+
+.product-info-div {
+
+    width: 20%;
+}
+
+.header-div h4 {
+    margin: 0;
+    padding: 3px 0;
+
+}
+
+.products-list {
+    border: 1px solid #774240;
+    background: #8080801a;
+}
+
+.header-div {
+    background: #774240;
+    color: white;
+    padding: 2px 9px;
+}
+
+.product-header ul {
+    padding: 0px 18px;
+    margin: 10px 0px;
+}
+
+.product-header ul li {
+    list-style-type: none;
+    padding: 4px 0px;
+}
+
+
+
+.product-header ul li img {
+    height: 56px;
+    padding-top: 9px;
+}
+
+.assistance {
+    border: 1px solid #774240;
+    margin-top: 20px;
+    background-image: url('img/cute woman.png');
+    background-size: cover;
+    height: 210px;
+    position: relative;
+}
+
+.assistance h2 {
+    padding: 9px;
+    margin: 0;
+    font-size: 1rem;
+    background: #ffffff73;
+    text-transform: uppercase;
+    width: 92%;
+    font-family: arial;
+    font-weight: 500;
+    padding-bottom: 0;
+
+}
+
+.assistance .call {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    font-size: 1.125rem;
+}
+
+.update,
+.letest-news,
+.certificates {
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid #774240;
+    background: #8080801a;
+}
+
+.update-header-div {
+    background: #774240;
+    color: white;
+    padding: 2px 9px;
+}
+
+.update-header-div h4 {
+    margin: 0;
+    padding: 3px 0;
+
+}
+
+.update-info-details {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 24px;
+    font-size: 1rem;
+}
+
+.update-info-details p {
+    text-align: center;
+    margin-top: 0;
+}
+
+.update-info-details input[type="text"] {
+    width: 92%;
+    margin-top: 8px;
+}
+
+.update-info-details .button {
+    background-color: #774240;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin: 7px 36px;
+    cursor: pointer;
+}
+
+.logo-div img {
+    height: 41px;
+    width: 48px;
+    margin-left: 13px;
+    margin-top: 14px;
+}
+
+.info-discription-div {
+    width: 79%;
+    height: 200%;
+    margin: -13px 10px;
+    margin-right: 0;
+}
+
+.slider {
+    position: relative;
+}
+
+.starwest-details ul {
+
+    list-style-image: url('img/leaf_shape.png');
+
+}
+
+.starwest-details ul li::marker {
+    height: 1px;
+}
+
+
+.info-discription-div img {
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.slider-discription {
+    position: absolute;
+    bottom: 18px;
+    right: 16px;
+    width: 38%;
+    background: #ffffffa3;
+    height: 137px;
+    padding: 0px 18px;
+    text-align: center;
+    font-size: 1.313rem;
+}
+
+.slider-discription h2 {
+    margin-top: 14px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.starwest-details {
+    width: 73%;
+}
+
+.starwest-details h3 {
+
+    font-size: 1.75rem;
+    margin: 10px 26px;
+    color: #3b5547;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold-letter {
+    font-weight: 600;
+}
+
+.header-div h4::first-letter {
+    font-size: 1.25rem;
+}
+
+.assistance h2::first-letter {
+    font-size: 1.25rem;
+}
+
+span.capital-class {
+    font-size: 1.25rem;
+}
+
+.update-header-div h4::first-letter {
+    font-size: 1.25rem;
+}
+
+.letest-news-header-div h4::first-letter {
+    font-size: 1.25rem;
+}
+
+.certificates h4:first-letter {
+    font-size: 1.25rem;
+}
+
+.starwest-details ul li {
+    font-size: 1.063rem;
+    padding: 5px;
+}
+
+.starwest-info {
+    display: inline-flex;
+    padding: 10px 8px;
+}
+
+.news-cerifications {
+    width: 27%;
+}
+
+.letest-news-header-div {
+    background: #774240;
+    color: white;
+    padding: 2px 9px;
+}
+
+.letest-news-header-div h4 {
+    margin: 0;
+    padding: 4px 0;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+}
+
+.letest-news-details p {
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.letest-news-details p a {
+    color: #135213;
+    padding: 0 5px;
+    text-decoration: underline;
+    border-right: none;
+
+}
+
+.letest-news-details {
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.certificates ul {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.certificates ul li {
+    list-style: none;
+    font-size: 0.75rem;
+    padding: 3px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    background: white;
+    width: 99.6%;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    height: auto;
+    padding: 15px 1px 15px 8px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-logo .logo-img {
+    padding: 20px;
+    width: 158px;
+    margin: 13px 0;
+
+}
+
+.footer-logo {
+    border-right: 1px solid #7742404a;
+}
+
+.products,
+.info,
+.Starwest-site,
+.links {
+    padding: 0px 21px;
+    border-right: 1px solid #7742404a;
+    width: 21%;
+}
+
+.products p,
+.info p,
+.Starwest-site p,
+.links p {
+    margin: 4px;
+    font-size: 0.813rem;
+    text-transform: capitalize;
+}
+
+p.footer-subheadings {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #774240;
+    font-weight: 600;
+    margin-bottom: 14px;
+
+}
+
+.all-rights {
+    width: 288px;
+}
+
+.all-rights p {
+
+    font-size: 0.875rem;
+    text-align: end;
+    padding: 10px;
+
+}
+
+.Starwest-site {
+    width: 23%;
+}
+
+.slider-bar {
+    position: absolute;
+    bottom: 0;
+    background: #ffffff5c;
+    padding: 6px 20px;
+}
+
+.slider-bar img {
+    height: 18px;
+    width: 21px;
+}
+
+.slider-bar span {
+    margin: 6px;
+    font-size: 1.125rem;
+}
+
+.main-content {
+    position: relative;
+    top: 10%;
+}
+
+@media (max-width: 2560px) and (min-width: 2500px) {
+    .header {
+        height: 95px;
+    }
+
+    .center-logo {
+        width: 256px;
+    }
+
+    .logo-img {
+        width: 225px;
+    }
+
+    .search-header h5 {
+        font-size: 1.5rem;
+    }
+
+    .search-box {
+        width: 22%;
+    }
+
+    .search-box-navbar nav a {
+        font-size: 1rem;
+    }
+
+    nav.navbar-menu {
+        height: 37px;
+    }
+
+    nav.navbar-menu a {
+        font-size: 1.5rem;
+    }
+
+    nav.navbar-menu span {
+        font-size: 1.5rem;
+        margin-right: 85px;
+    }
+
+    .products-list {
+        font-size: 1.8rem;
+    }
+
+    .header-div h4::first-letter {
+        font-size: 2.5rem;
+    }
+
+    .product-header ul li img {
+        height: 89px;
+        padding-top: 14px;
+    }
+
+    .download-para2 {
+        font-size: 1.3rem;
+        padding-left: 45px;
+    }
+
+    .download-para1 {
+        font-size: 1.7rem;
+        padding-left: 43px;
+    }
+
+    .assistance {
+        height: 371px;
+    }
+
+    .assistance h2 {
+        font-size: 2rem;
+        padding: 17px;
+    }
+
+    .assistance h2::first-letter {
+        font-size: 2.6rem;
+    }
+
+    span.capital-class {
+        font-size: 2.5rem;
+    }
+
+    .assistance .call {
+
+        font-size: 2.125rem;
+        margin-bottom: 0;
+        padding-bottom: 0
+    }
+
+    .update-info-details {
+        font-size: 1.8rem;
+    }
+
+    .update-header-div h4 {
+        font-size: 2rem;
+    }
+
+    .update-header-div h4::first-letter {
+        font-size: 2.6rem;
+    }
+
+    .update-info-details input[type="text"] {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    .update-info-details .button {
+        padding: 11px 29px;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 10px 88px;
+    }
+
+    .logo-div img {
+        height: 69px;
+        width: 72px;
+        margin-left: 19px;
+    }
+
+    .slider-discription {
+        width: 38%;
+        height: 237px;
+        font-size: 2.2rem;
+        padding: 0;
+    }
+
+    .slider-bar span {
+        font-size: 2.2rem;
+    }
+
+    .slider-bar {
+        padding: 15px 39px;
+    }
+
+    .slider-bar img {
+        height: 29px;
+        width: 63px;
+    }
+
+    .starwest-details h3 {
+        font-size: 2.8rem;
+    }
+
+    .starwest-details ul li {
+        font-size: 1.8rem;
+        padding: 5px;
+    }
+
+    .letest-news-details p {
+        font-size: 1.6rem;
+    }
+
+    .certificates ul li {
+
+        font-size: 1.6rem;
+
+    }
+
+    .letest-news-header-div h4 {
+        font-size: 1.9rem;
+    }
+
+    .letest-news-header-div h4::first-letter {
+        font-size: 2.3rem;
+    }
+
+    .footer-logo .logo-img {
+        width: 189px;
+        margin: 13px 0;
+    }
+
+    .products p,
+    .info p,
+    .Starwest-site p,
+    .links p {
+
+        font-size: 1.3rem;
+    }
+
+    p.footer-subheadings {
+        font-size: 2rem;
+    }
+
+    .all-rights p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1024px) and (min-width:770px) {
+    .container {
+        width: 85%;
+    }
+
+    .search-box {
+        width: 25%;
+    }
+
+    .main-landing-page {
+        width: 98.9%;
+        margin-top: 12px;
+    }
+
+    .slider-discription {
+        width: 35%;
+        height: 129px;
+        padding: 0px 18px;
+        font-size: 1rem;
+    }
+
+    .product-info-div {
+        width: 23%;
+    }
+
+    .product-header ul li {
+        padding: 3px 0px;
+        font-size: .95rem;
+    }
+
+    .download-para2 {
+        font-size: 0.5rem;
+        padding-left: 27px;
+    }
+
+    .product-header ul li img {
+        height: 52px;
+        padding-top: 10px;
+    }
+
+    .assistance .call {
+        font-size: 1rem;
+    }
+
+    .update-info-details {
+        padding: 5px 12px;
+        font-size: .9rem;
+    }
+
+    .logo-div img {
+        height: 42px;
+        width: 41px;
+        margin-top: 7px;
+    }
+
+
+    .assistance {
+        height: 190px;
+    }
+
+    .starwest-details h3 {
+        font-size: 1.5rem;
+
+    }
+
+    .letest-news-details p {
+        font-size: 0.9rem;
+    }
+
+    .certificates ul li {
+        font-size: 0.9rem;
+    }
+
+    .letest-news-details {
+        padding-bottom: 8px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .update-info-details p {
+        margin-bottom: 7px;
+    }
+
+    .footer-logo .logo-img {
+        padding: 18px;
+        width: 135px;
+        margin: 13px 0;
+    }
+
+    .products,
+    .info,
+    .Starwest-site,
+    .links {
+        width: 24%;
+        padding: 0px 19px;
+    }
+
+    p.footer-subheadings {
+        margin-bottom: 10px;
+    }
+
+    .products p,
+    .info p,
+    .Starwest-site p,
+    .links p {
+        font-size: 0.9rem;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .all-rights p {
+        font-size: 0.71rem;
+        text-align: end;
+        padding: 10px;
+    }
+
+    .footer {
+        width: 98.9%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 85%;
+    }
+
+    .topnav a {
+        font-size: 14px;
+        padding: 6px 10px
+    }
+
+    .header {
+        height: 65px;
+    }
+
+    .logo {
+        width: 310px;
+    }
+
+    .logo-img {
+        width: 120px;
+    }
+
+    .center-logo {
+        width: 117px;
+        padding: 0px 17px 4px 151px;
+    }
+
+
+    .search-box {
+        width: 33%;
+    }
+
+    .search-box-navbar nav a {
+        padding: 0 5px;
+        font-size: 10px;
+    }
+
+    .search-header h5 {
+        margin: 3px 0px 0px 0px;
+    }
+
+    .search-bar {
+        margin-top: 1px;
+    }
+
+    nav.navbar-menu span {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+
+    nav.navbar-menu a {
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+
+    nav.navbar-menu {
+        padding-top: 6px;
+        height: 24px;
+    }
+
+    .product-info-div {
+        width: 27%;
+    }
+
+    .main-landing-page {
+        margin-top: 10px;
+        width: 98.6%;
+    }
+
+    .product-header ul li {
+        padding: 2px 0px;
+        font-size: 12px;
+    }
+
+    .download-button {
+        margin-top: 3px;
+        width: 86%;
+    }
+
+    .product-header ul li img {
+        height: 43px;
+        padding-top: 7px;
+    }
+
+    .download-para2 {
+        font-size: 8px;
+        padding-left: 25px;
+    }
+
+    .products-list {
+        margin-top: -7px;
+    }
+
+    .product-header ul li img {
+        height: 43px;
+        padding-top: 5px;
+        padding-left: 6px;
+    }
+
+    .assistance h2 {
+
+        font-size: 15px;
+    }
+
+    .assistance {
+        height: 158px;
+    }
+
+    .assistance .call {
+        font-size: 15px;
+    }
+
+    .header-div h4 {
+        padding: 3px 0;
+        font-size: 12px;
+    }
+
+    .product-header ul {
+        padding: 0px 7px;
+        margin: 5px 0px;
+    }
+
+    .header-div h4::first-letter {
+        font-size: 16px;
+    }
+
+    .letest-news-header-div h4 {
+        font-size: 12px;
+
+    }
+
+    .update-info-details {
+        padding: 4px 7px;
+        font-size: 14px;
+    }
+
+    span.capital-class {
+        font-size: 16px;
+    }
+
+    .letest-news-details p {
+
+        font-size: 10px;
+    }
+
+    .update-header-div h4 {
+        margin: 0;
+        padding: 3px 0;
+        font-size: 15px;
+    }
+
+    .news-cerifications {
+        width: 29%;
+    }
+
+    .letest-news-details p {
+        font-size: 12px;
+    }
+
+    .letest-news-details {
+        padding-bottom: 0;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .update-info-details p {
+        margin-bottom: 1px;
+    }
+
+    .logo-div img {
+        height: 37px;
+        width: 41px;
+        margin-left: 16px;
+        margin-top: 4px;
+    }
+
+    .letest-news-header-div h4 {
+        margin: 0;
+        padding: 2px 0;
+    }
+
+    .update-info-details .button {
+        font-size: 12px;
+    }
+
+    .slider-discription {
+        bottom: 20px;
+        right: 16px;
+        width: 35%;
+        height: 63px;
+        padding: 0px 2px;
+        font-size: 10px;
+    }
+
+    .slider-discription h2 {
+        margin-top: 2px;
+
+    }
+
+    .slider-bar span {
+
+        font-size: 16px;
+    }
+
+    .slider-bar {
+        padding: 1px 14px;
+    }
+
+    .starwest-details h3 {
+        font-size: 20px;
+        margin: 7px 9px;
+    }
+
+    .starwest-details {
+        width: 70%;
+    }
+
+    .starwest-info {
+        padding: 6px 0px;
+    }
+
+    .starwest-details ul li {
+        font-size: 13px;
+        padding: 0px;
+    }
+
+    .certificates ul li {
+        font-size: 12px;
+        padding: 2px 1px;
+    }
+
+    p.footer-subheadings {
+        font-size: 12px;
+    }
+
+    .footer-logo .logo-img {
+        padding: 20px 0px;
+        width: 83px;
+        margin: 13px 6px;
+    }
+
+    .products p,
+    .info p,
+    .Starwest-site p,
+    .links p {
+        margin: 4px;
+        font-size: 12px;
+        margin: 4px 0px;
+
+    }
+
+    .products,
+    .info,
+    .Starwest-site,
+    .links {
+        padding: 0px 11px;
+        width: 30%;
+    }
+
+    .all-rights p {
+        font-size: 10px;
+        padding: 9px;
+    }
+
+    .footer {
+        width: 98.6%;
+    }
+
+}
+
+/* @media (max-width: 768px) and (min-width:430px) */
+@media(max-width: 429px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media (max-width: 429px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav a {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+
+    .header-div h4 {
+        padding: 3px 10px;
+        font-size: 18px;
+    }
+
+    .header-div h4::first-letter {
+        font-size: 22px;
+    }
+
+    .product-header ul li {
+        padding: 2px 16px;
+        font-size: 14px;
+    }
+
+    .assistance {
+        height: 240px;
+    }
+
+    .assistance .call {
+        font-size: 15px;
+        width: 95%;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    #phone-no {
+        float: left;
+        border-right: none;
+    }
+
+    .active {
+        border-right: none;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .logo {
+        width: 273px;
+    }
+
+    .search-bar {
+        margin-top: -1px;
+    }
+
+    .logo-img {
+        width: 50%;
+    }
+
+    .center-logo {
+        display: none;
+    }
+
+    .search-box {
+        width: 45%;
+    }
+
+    .header {
+        margin-top: 1px;
+        height: 64px;
+        margin-left: 1px;
+        background-position: 51%, 74%;
+    }
+
+    .search-box-navbar nav a {
+        padding: 2px 3px;
+
+        font-size: 10px;
+    }
+
+    .search-header h5 {
+        margin: -39px -2px -7px -29px;
+    }
+
+    .search-box-navbar nav a {
+        padding: 1px 1px;
+        font-size: 10px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .starwest-details {
+        width: 48%;
+    }
+
+    .search {
+        width: 51%;
+        margin-top: 4px;
+        padding: 0px 0px;
+    }
+
+    .search {
+        width: 69%;
+        margin-top: 4px;
+        padding: 0px 0px;
+    }
+
+    .search-bar button {
+        padding: 2px;
+    }
+
+    .search-header h5 {
+        font-size: 16px;
+        margin: -45px -5px -3px -7px;
+    }
+
+    ::placeholder {
+        font-size: 8px;
+    }
+
+    .main-landing-page {
+        display: block;
+        width: 97.6%;
+    }
+
+    .product-info-div {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .update-info-details .button {
+        padding: 7px 10px;
+        margin: 7px 71px;
+    }
+
+    .update-info-details ::placeholder {
+        font-size: 12px;
+    }
+
+    .logo-div {
+        margin-left: 40px;
+    }
+
+    .update-info-details p {
+        margin: 5px;
+        font-size: 16px;
+        margin-bottom: 1px;
+    }
+
+    .download-button {
+        margin-top: 3px;
+        width: 45%;
+    }
+
+    .update-info-details {
+        padding: 7px 33px;
+        font-size: 14px;
+    }
+
+    .update-info-details input[type="text"] {
+        width: 79%;
+        margin-top: 8px;
+        font-size: 14px;
+    }
+
+    .slider-discription {
+        width: 39%;
+        padding: 2px 6px;
+        font-size: 9px;
+        height: 66px;
+    }
+
+    .slider-bar img {
+        height: 17px;
+        width: 19px;
+    }
+
+    .info-discription-div {
+        width: 98%;
+        margin: 7px 1px;
+        margin-right: 0;
+    }
+
+    .product-header ul li img {
+        height: 45px;
+        padding-top: 7px;
+        padding-left: 33px;
+    }
+
+    .slider-discription h2 {
+        margin-top: 1px;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    .assistance h2::first-letter {
+        font-size: 28px;
+    }
+
+    .update-header-div h4 {
+        margin: 0;
+        padding: 3px 0;
+        font-size: 20px;
+    }
+
+    span.capital-class {
+        font-size: 26px;
+    }
+
+    .update-header-div h4::first-letter {
+        font-size: 28px;
+    }
+
+    .assistance h2 {
+        font-size: 20px;
+    }
+
+    .assistance .call {
+        font-size: 23px;
+        width: 95%;
+    }
+
+
+    .slider-discription {
+        width: 39%;
+        padding: 0px 6px;
+        font-size: 11px;
+        height: 75px;
+    }
+
+    .slider-bar {
+        padding: 6px 4px;
+    }
+
+    .starwest-info {
+        display: block;
+    }
+
+    .starwest-details {
+        width: 100%;
+    }
+
+    .info-discription-div {
+        width: 97%;
+    }
+
+    .news-cerifications {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .starwest-details ul li {
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    .footer-logo .logo-img {
+        padding: 0px 40px;
+        width: 68%;
+        margin-top: -20px;
+    }
+
+    .letest-news-header-div h4 {
+        font-size: 14px;
+    }
+
+    .letest-news-details p {
+        font-size: 1rem;
+        padding: 0 24px;
+    }
+
+    .letest-news-header-div h4 {
+        padding: 0 10px;
+        font-size: 17px;
+    }
+
+    .certificates ul {
+        padding-left: 18px;
+        margin-top: 10px;
+    }
+
+    .certificates ul li {
+        font-size: 1rem;
+    }
+
+    .footer {
+        display: inline-block;
+        width: 97.6%;
+    }
+
+    .links,
+    .info {
+        border-right: none;
+    }
+
+    .products,
+    .info,
+    .Starwest-site,
+    .links {
+        padding: 0px 21px;
+
+        display: inline-block;
+        width: 35%;
+    }
+
+    .all-rights p {
+        font-size: 0.875rem;
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        margin: 0 auto;
+        width: 93%;
+    }
+
+    .logo {
+        width: 193px;
+    }
+
+    .search-box {
+        margin-top: 8px;
+        width: 46%;
+    }
+
+    .download-button {
+        margin-top: 3px;
+        width: 59%;
+    }
+
+    .product-header ul li img {
+        height: 45px;
+        padding-top: 5px;
+        padding-left: 21px;
+    }
+
+    .slider-discription {
+        width: 43%;
+        padding: 0px 4px;
+        font-size: 11px;
+        height: 67px;
+    }
+
+    .products,
+    .info,
+    .Starwest-site,
+    .links {
+        padding: 0px 21px;
+        display: inline-block;
+        width: 34%;
+    }
+
+    .all-rights p {
+        font-size: 0.875rem;
+        margin-left: 0px;
+        width: 93%;
+    }
+}
